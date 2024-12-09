@@ -51,8 +51,8 @@ The course covers a wide range of tools and technologies:
 
 - Clone the repository:  
   ```bash
-  git clone https://github.com/your-username/java-course-notes.git
-  cd java-course-notes
+  git clone https://github.com/Xamacardoso/Java-Complete-OOP.git
+  cd Java-Complete-OOP
   ```
 - Explore each module to review notes and code examples.
 - Practice by running and modifying the code examples.
