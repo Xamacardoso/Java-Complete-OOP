@@ -4,8 +4,6 @@ This repository contains notes, concepts, and practical examples from a comprehe
 
 ## 📖 Learning Objectives
 
-By the end of this course, you will:
-
 1. **Master Object-Oriented Programming (OOP)** and the Java programming language.
 2. Create solutions that are **flexible**, **extensible**, and **testable**.
 3. Gain a solid **theoretical and practical base** to excel as a Java developer.
