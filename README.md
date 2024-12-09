@@ -1,5 +1,3 @@
-# Java-Complete-OOP
-
 # Java Learning Notes Repository
 
 This repository contains notes, concepts, and practical examples from a comprehensive **Java Programming Course**. The course is designed to build a strong foundation in **Object-Oriented Programming (OOP)**, Java language fundamentals, and real-world application development.
