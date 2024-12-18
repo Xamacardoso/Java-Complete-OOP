@@ -1,7 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Main {
+public class DataEntry {
     public static void main(String[] args) {
 
         Locale.setDefault(Locale.US); // Sets the decimal number separator as "." instead of ","
