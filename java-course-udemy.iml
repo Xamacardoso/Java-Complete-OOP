@@ -7,6 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Basic Java/String Utils/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Basic Java/OOP Basics/Triangle Exercise/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Basic Java/OOP Basics/Product Exercise/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
