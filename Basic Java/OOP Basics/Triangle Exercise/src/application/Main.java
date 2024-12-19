@@ -27,12 +27,9 @@ public class Main {
         System.out.println("Enter the C side of the Y triangle: ");
         y.sideC = sc.nextDouble();
 
-        double areaX, areaY, p;
-        p = (x.sideA + x.sideB + x.sideC) / 2;
-        areaX = Math.sqrt(p * (p - x.sideA) * (p - x.sideB) * (p - x.sideC));
-
-        p = (y.sideA + y.sideB + y.sideC) / 2;
-        areaY = Math.sqrt(p * (p - y.sideA) * (p - y.sideB) * (p - y.sideC));
+        double areaX, areaY;
+        areaX = x.calculateArea();
+        areaY = y.calculateArea();
 
         System.out.printf("X Area: %.4f\n", areaX);
         System.out.printf("Y Area: %.4f\n", areaY);
