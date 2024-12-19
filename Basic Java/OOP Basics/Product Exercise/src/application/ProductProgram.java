@@ -19,8 +19,18 @@ public class ProductProgram {
         product.price = sc.nextDouble();
         System.out.print("Enter product amount in stock: ");
         product.quantity = sc.nextInt();
+        System.out.println(product.toString());
 
-        System.out.println(product.name + ": " + "R$" + product.price + ", Amount: " + product.quantity);
+        System.out.print("Enter the number of products to be added in stock: ");
+        int quantityToAdd = sc.nextInt();
+        product.addProducts(quantityToAdd);
+        System.out.println("Updated product info:\n" + product.toString());
+
+        System.out.print("Enter the number of products to be removed in stock: ");
+        int quantityToRemove = sc.nextInt();
+        product.removeProducts(quantityToRemove);
+        System.out.println("Updated product info:\n" + product.toString());
+
         sc.close();
     }
 }

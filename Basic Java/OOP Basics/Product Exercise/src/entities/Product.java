@@ -18,4 +18,10 @@ public class Product {
             this.quantity -= quantity;
         }
     }
+
+    /* Overriding default toString method. Now we can represent
+    * this object as a string, making it easier to see.*/
+    public String toString(){
+        return "%s: %.2f, Amount in stock: %d %nTotal in Stock: R$%.2f".formatted(this.name, this.price, this.quantity, this.totalValueInStock());
+    }
 }
