@@ -1,5 +1,6 @@
 package application;
 
+import entities.Employee;
 import entities.Rectangle;
 
 import java.util.Locale;
