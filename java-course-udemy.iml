@@ -13,6 +13,10 @@
       <sourceFolder url="file://$MODULE_DIR$/Basic Java/OOP Basics/Rectangle Exercise/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Basic Java/OOP Basics/Static Members/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Basic Java/OOP Basics/Encapsulation &amp; Overload/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Basic Java/Arrays/BoardingHouseExercise/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Basic Java/Arrays/HeightsExercise/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Basic Java/Arrays/NegativesExercise/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Basic Java/Arrays/VectorSumExercise/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

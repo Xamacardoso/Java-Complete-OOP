@@ -1,9 +1,7 @@
 package application;
 
-import entities.Employee;
 import entities.Student;
 
-import java.util.Arrays;
 import java.util.Locale;
 import java.util.Scanner;
 
