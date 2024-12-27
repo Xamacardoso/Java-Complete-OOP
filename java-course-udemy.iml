@@ -21,6 +21,10 @@
       <sourceFolder url="file://$MODULE_DIR$/Basic Java/Lists/Lists Example/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Basic Java/Lists/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Basic Java/Arrays/Matrix Exercise/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Date and Time/Date Operations/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Date and Time/Global to Local Date/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Date and Time/Instantiating Date/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Date and Time/Time to String/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
