@@ -25,6 +25,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Date and Time/Global to Local Date/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Date and Time/Instantiating Date/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Date and Time/Time to String/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Date and Time/[DEPRECATED] Date and Calendar/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
