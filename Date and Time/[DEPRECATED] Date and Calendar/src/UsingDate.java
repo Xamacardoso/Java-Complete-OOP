@@ -35,6 +35,7 @@ public class UsingDate {
         // In this way, Java will print the date using default pattern
         // Wkd Mon dd HH:mm:ss TMZ yyyy
         System.out.println("Date 1 = " + y1);
+
         System.out.println("Date 2 = " + sdf2.format(y2)); // We have to use .format() to print in formatted way
         System.out.println("Date 3 (now) = " + sdf2.format(x1));
         System.out.println("Date 4 (now GMT) = " + sdf3.format(x2));
