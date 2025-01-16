@@ -15,9 +15,10 @@ public class OrderComp {
     private List<OrderItemComp> items = new ArrayList<>();
 
     public OrderComp() {}
-    public OrderComp(Date moment, OrderStatusComp status) {
+    public OrderComp(Date moment, OrderStatusComp status, ClientComp client) {
         this.moment = moment;
         this.status = status;
+        this.client = client;
     }
 
     public Date getMoment() {

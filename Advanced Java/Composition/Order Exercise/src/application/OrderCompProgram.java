@@ -33,7 +33,7 @@ public class OrderCompProgram {
         System.out.print("How many items to this order? ");
         int items = sc.nextInt();
 
-        OrderComp order = new OrderComp(new Date(), OrderStatusComp.valueOf(status));
+        OrderComp order = new OrderComp(new Date(), OrderStatusComp.valueOf(status), client);
 
         for (int i = 0; i < items; i++) {
             sc.nextLine();
