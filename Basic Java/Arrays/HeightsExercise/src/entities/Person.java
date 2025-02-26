@@ -1,4 +1,4 @@
-package entities;
+package HeightsExercise.src.entities;
 
 public class Person {
     private int age;

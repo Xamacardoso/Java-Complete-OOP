@@ -3,33 +3,22 @@
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_21" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/Basic Java/Data Entry/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Basic Java/String Utils/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Basic Java/OOP Basics/Triangle Exercise/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Basic Java/OOP Basics/Employee Exercise/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Basic Java/OOP Basics/Grades Exercise/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Basic Java/OOP Basics/Product Exercise/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Basic Java/OOP Basics/Rectangle Exercise/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Basic Java/OOP Basics/Static Members/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Basic Java/OOP Basics/Encapsulation &amp; Overload/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Basic Java/Arrays/BoardingHouseExercise/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Basic Java/Arrays/HeightsExercise/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Basic Java/Arrays/NegativesExercise/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Basic Java/Arrays/VectorSumExercise/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Basic Java/Lists/List of Employees Exercise/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Basic Java/Lists/Lists Example/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Basic Java/Lists/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Basic Java/Arrays/Matrix Exercise/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Date and Time/Date Operations/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Date and Time/Global to Local Date/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Date and Time/Instantiating Date/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Date and Time/Time to String/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Date and Time/[DEPRECATED] Date and Calendar/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Advanced Java/Enumerations/WorkerExercise/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Advanced Java/Enumerations/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Advanced Java/Composition" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Advanced Java/Composition/Tst" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Advanced Java/Enumerations" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Advanced Java/Inheritance and Polymorphism" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Basic Java/Arrays" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Basic Java/Data Entry" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Basic Java/Lists" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Basic Java/OOP Basics" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Basic Java/String Utils" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
