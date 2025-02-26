@@ -1,24 +1,24 @@
-package entities;
+package OrderExercise.src.entities;
 
-import entities.enums.OrderStatusComp;
+import OrderExercise.src.entities.enums.OrderStatusComp;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-public class OrderComp {
+public class Order {
     private static SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
     private Date moment;
     private OrderStatusComp status;
-    private ClientComp client;
-    private List<OrderItemComp> items = new ArrayList<>();
+    private Customer customer;
+    private List<OrderItem> items = new ArrayList<>();
 
-    public OrderComp() {}
-    public OrderComp(Date moment, OrderStatusComp status, ClientComp client) {
+    public Order() {}
+    public Order(Date moment, OrderStatusComp status, Customer customer) {
         this.moment = moment;
         this.status = status;
-        this.client = client;
+        this.customer = customer;
     }
 
     public Date getMoment() {
@@ -37,29 +37,29 @@ public class OrderComp {
         this.status = status;
     }
 
-    public ClientComp getClient() {
-        return client;
+    public Customer getClient() {
+        return customer;
     }
 
-    public void setClient(ClientComp client) {
-        this.client = client;
+    public void setClient(Customer customer) {
+        this.customer = customer;
     }
 
-    public List<OrderItemComp> getItems() {
+    public List<OrderItem> getItems() {
         return items;
     }
 
-    public void addItem(OrderItemComp item) {
+    public void addItem(OrderItem item) {
         items.add(item);
     }
 
-    public void removeItem(OrderItemComp item) {
+    public void removeItem(OrderItem item) {
         items.remove(item);
     }
 
     public Double total(){
         Double sum = 0.0;
-        for (OrderItemComp item : items) {
+        for (OrderItem item : items) {
             sum += item.subTotal();
         }
 
@@ -71,9 +71,9 @@ public class OrderComp {
         StringBuilder sb = new StringBuilder();
         sb.append("Order moment: " + sdf.format(moment) + "\n");
         sb.append("Order status: " + status + "\n");
-        sb.append("Client: " + client + "\n");
+        sb.append("Client: " + customer + "\n");
         sb.append("Order items:" + "\n");
-        for (OrderItemComp item : items) {
+        for (OrderItem item : items) {
             sb.append("\t" + item + "\n");
         }
         sb.append("Total price: $%.2f".formatted(total()) + "\n");

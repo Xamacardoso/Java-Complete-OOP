@@ -1,12 +1,12 @@
-package entities;
+package OrderExercise.src.entities;
 
-public class OrderItemComp {
+public class OrderItem {
     private Integer quantity;
     private Double price;
-    private ProductComp product;
+    private Product product;
 
-    public OrderItemComp() {}
-    public OrderItemComp(Integer quantity, Double price, ProductComp product) {
+    public OrderItem() {}
+    public OrderItem(Integer quantity, Double price, Product product) {
         this.quantity = quantity;
         this.price = price;
         this.product = product;
@@ -28,11 +28,11 @@ public class OrderItemComp {
         this.price = price;
     }
 
-    public ProductComp getProduct() {
+    public Product getProduct() {
         return product;
     }
 
-    public void setProduct(ProductComp product) {
+    public void setProduct(Product product) {
         this.product = product;
     }
 

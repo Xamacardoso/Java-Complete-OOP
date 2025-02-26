@@ -1,11 +1,11 @@
-package entitites;
+package PostExercise.src.entitites;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-public class PostEx {
+public class Post {
 
     // Static date formatter to use in every instance of PostEx in toString method
     private static SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
@@ -15,10 +15,10 @@ public class PostEx {
     private String content;
     private Integer likes;
 
-    private List<CommentPostEx> comments = new ArrayList<>();
+    private List<CommentPost> comments = new ArrayList<>();
 
-    public PostEx() {}
-    public PostEx(Date moment, String title, String content, Integer likes) {
+    public Post() {}
+    public Post(Date moment, String title, String content, Integer likes) {
         this.moment = moment;
         this.title = title;
         this.content = content;
@@ -57,15 +57,15 @@ public class PostEx {
         this.moment = moment;
     }
 
-    public List<CommentPostEx> getComments() {
+    public List<CommentPost> getComments() {
         return comments;
     }
 
-    public void addComment(CommentPostEx comment) {
+    public void addComment(CommentPost comment) {
         comments.add(comment);
     }
 
-    public void removeComment(CommentPostEx comment) {
+    public void removeComment(CommentPost comment) {
         comments.remove(comment);
     }
 
@@ -79,7 +79,7 @@ public class PostEx {
         sb.append("Comments:" + "\n");
 
         // Adds all comments that the post haves
-        for (CommentPostEx comment : comments) {
+        for (CommentPost comment : comments) {
             sb.append(comment.getText() + "\n");
         }
 

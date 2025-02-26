@@ -1,17 +1,17 @@
-package entities;
+package OrderExercise.src.entities;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class ClientComp {
+public class Customer {
 
     private static SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
     private String name;
     private String email;
     private Date birthDate;
 
-    public ClientComp() {}
-    public ClientComp(String name, String email, Date birthDate) {
+    public Customer() {}
+    public Customer(String name, String email, Date birthDate) {
         this.name = name;
         this.email = email;
         this.birthDate = birthDate;

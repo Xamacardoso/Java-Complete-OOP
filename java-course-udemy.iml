@@ -28,8 +28,8 @@
       <sourceFolder url="file://$MODULE_DIR$/Date and Time/[DEPRECATED] Date and Calendar/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Advanced Java/Enumerations/WorkerExercise/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Advanced Java/Enumerations/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Advanced Java/Composition/Order Exercise/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Advanced Java/Composition/PostExercise/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Advanced Java/Composition" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Advanced Java/Composition/Tst" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
