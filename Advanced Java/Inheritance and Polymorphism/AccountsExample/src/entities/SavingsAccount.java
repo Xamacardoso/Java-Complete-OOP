@@ -1,6 +1,8 @@
 package AccountsExample.src.entities;
 
-public class SavingsAccount extends Account {
+// A class defined with "final" CANNOT be inherited. It is the final extension of a class
+// A final method can't be overwritten either
+public final class SavingsAccount extends Account {
     private Double interestRate;
 
     public SavingsAccount() {}
@@ -16,6 +18,11 @@ public class SavingsAccount extends Account {
 
     public void setInterestRate(Double interestRate) {
         this.interestRate = interestRate;
+    }
+
+    @Override // Overwrites a behavior that exists in a superclass
+    public void withdraw(Double amount) {
+        balance -= amount;
     }
 
     public void updateBalance(){

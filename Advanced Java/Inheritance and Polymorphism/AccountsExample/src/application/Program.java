@@ -12,7 +12,7 @@ public class Program {
         // UPCASTING - Casting a subclass into a superclass
         Account acc1 = bacc; // This does not throws an error, because a business account is an account
         Account acc2 = new BusinessAccount(3, "Bozo", 100.0, 50.0);
-        Account acc3 = new SavingsAccount(4, "Ximas", 0.0, 1.5);
+        Account acc3 = new SavingsAccount(4, "Ximas", 100.0, 1.5);
 
         // DOWNCASTING - Converting a superclass object into a subclass object
         // The line below throws an error because it does not convert automatically an account into a subclass of it
@@ -36,5 +36,11 @@ public class Program {
             acc5.updateBalance();
             System.out.println("Balance updated!");
         }
+
+        acc2.withdraw(10.0);
+        acc3.withdraw(10.0);
+
+        System.out.println(acc2.getBalance());
+        System.out.println(acc3.getBalance());
     }
 }
