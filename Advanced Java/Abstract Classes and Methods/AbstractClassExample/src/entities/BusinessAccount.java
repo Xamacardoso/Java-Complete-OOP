@@ -1,4 +1,4 @@
-package AccountAbstractExample.src.entities;
+package AbstractClassExample.src.entities;
 
 public class BusinessAccount extends Account {
     private Double loanLimit;

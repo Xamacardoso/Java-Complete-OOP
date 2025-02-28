@@ -1,8 +1,8 @@
-package AccountAbstractExample.src.application;
+package AbstractClassExample.src.application;
 
-import AccountAbstractExample.src.entities.Account;
-import AccountAbstractExample.src.entities.BusinessAccount;
-import AccountAbstractExample.src.entities.SavingsAccount;
+import AbstractClassExample.src.entities.Account;
+import AbstractClassExample.src.entities.BusinessAccount;
+import AbstractClassExample.src.entities.SavingsAccount;
 
 public class Program {
     public static void main(String[] args) {

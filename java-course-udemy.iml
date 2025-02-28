@@ -19,7 +19,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Basic Java/Lists" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Basic Java/OOP Basics" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Basic Java/String Utils" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Advanced Java/Abstract Classes" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Advanced Java/Abstract Classes and Methods" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -1,4 +1,4 @@
-package AccountAbstractExample.src.entities;
+package AbstractClassExample.src.entities;
 
 // An abstract class means that it cannot be instantiated directly, only non-abstract subclasses of itself
 // It's a useful resource that provides polymorphism, code re-use, encapsulation and more organization

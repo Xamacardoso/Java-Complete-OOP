@@ -1,4 +1,4 @@
-package AccountAbstractExample.src.entities;
+package AbstractClassExample.src.entities;
 
 // A class defined with "final" CANNOT be inherited. It is the final extension of a class
 // A final method can't be overwritten either
