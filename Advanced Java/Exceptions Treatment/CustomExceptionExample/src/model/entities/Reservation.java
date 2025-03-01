@@ -39,7 +39,7 @@ public class Reservation {
         return checkIn;
     }
 
-    // Validates a inputted date, throws an exception if any of the dates is invalid
+    // Validates a inputted date, throws an exception if any of the dates is invalid. Responsibility delegation
     public void validateDates(Date checkIn, Date checkOut) throws DomainException {
         Date now = new Date();
         // If any of the dates is before today

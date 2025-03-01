@@ -7,6 +7,12 @@ public class Program {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
+        /* TREATING EXCEPTIONS
+        *
+        * Exceptions are a special Java type, that represents an error or
+        * an unexpected behavior. It obeys a determined hierarchy, an
+        * must (or not) be treated. */
+
         // Indicates a block of code that can cause an exception that will be treated.
         // It's useful to maintain the application running when an error occurs
         // And treat exceptions hierarchically
