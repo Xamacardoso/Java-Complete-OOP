@@ -21,6 +21,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Basic Java/String Utils" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Advanced Java/Abstract Classes and Methods" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Advanced Java/Exceptions Treatment" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Advanced Java/Files and Folders" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
