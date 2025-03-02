@@ -1,7 +1,10 @@
 package src.application;
 
 import src.model.entities.CarRental;
+import src.model.entities.Invoice;
 import src.model.entities.Vehicle;
+import src.model.services.BrazilTaxService;
+import src.model.services.RentalService;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -29,6 +32,21 @@ public class Program {
         LocalDateTime rentalFinishDate = LocalDateTime.parse(sc.nextLine(), dateFormatter);
 
         CarRental rental = new CarRental(rentalStartDate, rentalFinishDate, new Vehicle(rentalCarModel));
+
+        System.out.print("Value per hour: ");
+        Double serviceValuePerHour = sc.nextDouble();
+        System.out.print("Value per day: ");
+        Double serviceValuePerDay = sc.nextDouble();
+
+        BrazilTaxService taxService = new BrazilTaxService();
+        RentalService rentalService = new RentalService(serviceValuePerHour, serviceValuePerDay, taxService);
+        rentalService.processInvoice(rental);
+
+        Invoice invoice = rental.getInvoice();
+        System.out.println("==== INVOICE ====");
+        System.out.printf("Basic payment: $ %.2f%n", invoice.getBasicPayment());
+        System.out.printf("Tax: $ %.2f%n", invoice.getTax());
+        System.out.printf("Total payment: $ %.2f%n", invoice.getTotalPayment());
 
         sc.close();
     }
