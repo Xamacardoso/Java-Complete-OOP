@@ -1,4 +1,4 @@
-package src.model.services;
+package InterfaceExample.src.model.services;
 
 /* WHAT IS AN INTERFACE??
  * Interface is a special type that defines a set of operations

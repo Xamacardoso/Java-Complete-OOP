@@ -1,4 +1,4 @@
-package src.model.services;
+package InterfaceExample.src.model.services;
 
 // Handles tax logic. Implements all methods in TaxService
 public class BrazilTaxService implements TaxService {

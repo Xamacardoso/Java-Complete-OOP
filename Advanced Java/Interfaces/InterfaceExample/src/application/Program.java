@@ -1,10 +1,10 @@
-package src.application;
+package InterfaceExample.src.application;
 
-import src.model.entities.CarRental;
-import src.model.entities.Invoice;
-import src.model.entities.Vehicle;
-import src.model.services.BrazilTaxService;
-import src.model.services.RentalService;
+import InterfaceExample.src.model.entities.CarRental;
+import InterfaceExample.src.model.entities.Invoice;
+import InterfaceExample.src.model.entities.Vehicle;
+import InterfaceExample.src.model.services.BrazilTaxService;
+import InterfaceExample.src.model.services.RentalService;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

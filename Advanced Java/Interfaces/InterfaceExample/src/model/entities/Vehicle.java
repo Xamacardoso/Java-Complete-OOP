@@ -1,4 +1,4 @@
-package src.model.entities;
+package InterfaceExample.src.model.entities;
 
 public final class Vehicle {
     private String model;

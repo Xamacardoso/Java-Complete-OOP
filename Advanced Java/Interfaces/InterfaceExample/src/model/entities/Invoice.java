@@ -1,4 +1,4 @@
-package src.model.entities;
+package InterfaceExample.src.model.entities;
 
 public final class Invoice {
     private Double basicPayment;

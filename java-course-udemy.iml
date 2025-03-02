@@ -23,7 +23,6 @@
       <sourceFolder url="file://$MODULE_DIR$/Advanced Java/Exceptions Treatment" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Advanced Java/Files and Folders" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Advanced Java/Interfaces" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Advanced Java/Interfaces/InterfaceExample" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
