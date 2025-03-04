@@ -26,6 +26,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Advanced Java/Generics" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Advanced Java/Map" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Advanced Java/Set" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Advanced Java/Functional Programming and Lambda" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
